@@ -1,0 +1,21 @@
+{
+    "name": "limion/yii-tmdbapi-demo-component",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/limion/tmdbapi-demo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii": "1.1.*",
+        "limion/tmdbapi-demo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TmdbDemoComponent\\": ""
+        }
+    }
+}
